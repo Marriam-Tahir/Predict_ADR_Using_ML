@@ -58,13 +58,13 @@ To navigate this project, files are structured into separate directories as foll
  ──> (The main Jupyter Notebook detailing the complete ML engineering pipeline)
 
  
-├── app.py 
+ app.py 
 ──>(The primary Streamlit web application deployment file)
 
 
-└── README.md
+ README.md
  ──> (Project introductory documentation)
 
 
-├── requirements.txt
+ requirements.txt
     ──>(Required Libraries and environment used )
