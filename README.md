@@ -46,15 +46,25 @@ To find the most accurate predictor for Adverse Drug Reactions, this project imp
 ## 📁 Repository Structure
 To navigate this project, files are structured into separate directories as follows:
 
-├── assets/
-│   ├── (Contains UI configurations, design elements, and parsed JSON files for the dropdown lists)
-├── data/
-│   ├── (Contains subsets of preprocessed FDA FAERS datasets and JSON files)
-├── Predict ADR using ML.ipynb
-│   └── (The main Jupyter Notebook detailing the complete ML engineering pipeline)
+ assets/
+ ──>(Contains UI configurations, design elements, and parsed JSON files for the dropdown lists)
+
+
+ data/
+ ──> (Contains subsets of preprocessed FDA FAERS datasets and JSON files)
+
+ 
+ Predict ADR using ML.ipynb
+ ──> (The main Jupyter Notebook detailing the complete ML engineering pipeline)
+
+ 
 ├── app.py 
-│   └── (The primary Streamlit web application deployment file)
+──>(The primary Streamlit web application deployment file)
+
+
 └── README.md
-│   └── (Project introductory documentation)
+ ──> (Project introductory documentation)
+
+
 ├── requirements.txt
-    └── (Required Libraries and environment used )
+    ──>(Required Libraries and environment used )
