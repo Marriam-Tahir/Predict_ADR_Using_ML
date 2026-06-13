@@ -19,10 +19,20 @@ To find the most accurate predictor for Adverse Drug Reactions, this project imp
 
 | Model Name | Description / Use Case in Project |
 | **Gaussian Naive Bayes** | A probabilistic classifier used for fast baseline predictions, assuming independence among the complex FDA FAERS features. |
-| **Logistic Regression** | Used as a fundamental statistical baseline model to evaluate linear decision boundaries within the dataset. |
+
+
+| **Logistic Regression** | Used as a fundamental statistical baseline model to evaluate linear decision boundaries within the dataset. 
+
+
 | **XGBoost** | A high-performance gradient-boosted framework optimized to handle the heavily imbalanced nature of adverse event reports. |
+
+
 | **Decision Tree** | Implemented to provide a highly interpretable, rule-based logic mapping out the exact decision paths for adverse reactions. |
+
+
 | **Random Forest** | An ensemble tree-based algorithm used to maximize prediction stability and calculate feature importance scores across drug attributes. |
+
+
 | **Multi-Layer Perceptron (MLP)** | A feedforward Artificial Neural Network (ANN) used to capture deep, non-linear hidden relationships within patient and drug data. |
 
 
@@ -30,7 +40,6 @@ To find the most accurate predictor for Adverse Drug Reactions, this project imp
 * **Frontend Framework:** Built entirely with **Streamlit** to offer an intuitive, user-friendly dashboard for real-time predictions.
 * **Dynamic UI Rendering:** Implemented optimal file handling where the web frontend dynamically reads data from backend JSON arrays to populate user dropdowns seamlessly—efficiently managing thousands of data points.
 
----
 
 ## 📁 Repository Structure
 To navigate this project, files are structured into separate directories as follows:
@@ -44,4 +53,6 @@ To navigate this project, files are structured into separate directories as foll
 ├── app.py 
 │   └── (The primary Streamlit web application deployment file)
 └── README.md
-    └── (Project introductory documentation)
+│   └── (Project introductory documentation)
+├── requirements.txt
+    └── (Required Libraries and environment used )
