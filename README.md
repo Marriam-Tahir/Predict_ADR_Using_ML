@@ -10,8 +10,8 @@ By extracting and preprocessing real-world, high-stakes medical data, this syste
 ## 📊 Dataset: FDA FAERS
 This project utilizes data from the **FDA Adverse Event Reporting System (FAERS)**, a public repository containing millions of adverse event and medication error reports.
 
-* **Source:** OpenFDA / FAERS API extracts
-* **Format:** Raw data was parsed and engineered from complex JSON structures.
+* **Source:** OpenFDA / FAERS Dataset
+* **Format:** Raw data was parsed and engineered from complex sataset csv file.
 * **Data Engineering Challenge:** Designed automated scripts to dynamically load and parse JSON files featuring thousands of unique features (drug names and clinical reactions) without hardcoding values.
 
 ## 🤖 Machine Learning Models & Use Cases
