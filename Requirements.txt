@@ -1,0 +1,9 @@
+anaconda
+Jupyter Notebook
+Pandas
+NumPy
+imblearn
+Tensorflow
+Keras
+Joblib
+streamlit
