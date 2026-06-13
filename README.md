@@ -14,6 +14,16 @@ This project utilizes data from the **FDA Adverse Event Reporting System (FAERS)
 * **Format:** Raw data was parsed and engineered from complex sataset csv file.
 * **Data Engineering Challenge:** Designed automated scripts to dynamically load and parse JSON files featuring thousands of unique features (drug names and clinical reactions) without hardcoding values.
 
+## 📊 Dataset Installation & Setup
+
+Due to GitHub's strict file size limitations, the preprocessed 177 MB dataset (`fda_adverse_events_2015_2026_CLEAN.csv`) is hosted externally on Google Drive. 
+
+To run this project locally, please follow these setup steps:
+1. **Download the Dataset:** Click [(https://docs.google.com/spreadsheets/d/11Nyu8n_yzLlbkvL5zIb4VZbpEWwAYCSZ/edit?usp=drive_link&ouid=101596310430155422259&rtpof=true&sd=true)](https://docs.google.com/spreadsheets/d/12cG3GOXt-Q20Mpib1vFIi8TEpK2cEYmNirZ6YQHm6I4/edit?usp=sharing) to download the cleaned CSV file from Google Drive...
+
+
+
+
 ## 🤖 Machine Learning Models & Use Cases
 To find the most accurate predictor for Adverse Drug Reactions, this project implements and compares **six distinct machine learning models**. Each architecture was rigorously trained and evaluated using metrics like Accuracy, Precision, Recall, and F1-Score:
 
@@ -51,7 +61,7 @@ To navigate this project, files are structured into separate directories as foll
 
 
  data/
- ──> (Contains subsets of preprocessed FDA FAERS datasets and JSON files)
+ ──> (Contains subsets of preprocessed FDA FAERS datasets and JSON files) ──> Keep these files in root directory
 
  
  Predict ADR using ML.ipynb
@@ -68,3 +78,5 @@ To navigate this project, files are structured into separate directories as foll
 
  requirements.txt
     ──>(Required Libraries and environment used )
+
+All files in root directory and assets folder in root directory.
