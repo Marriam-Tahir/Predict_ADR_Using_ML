@@ -18,6 +18,8 @@ This project utilizes data from the **FDA Adverse Event Reporting System (FAERS)
 To find the most accurate predictor for Adverse Drug Reactions, this project implements and compares **six distinct machine learning models**. Each architecture was rigorously trained and evaluated using metrics like Accuracy, Precision, Recall, and F1-Score:
 
 | Model Name | Description / Use Case in Project |
+
+
 | **Gaussian Naive Bayes** | A probabilistic classifier used for fast baseline predictions, assuming independence among the complex FDA FAERS features. |
 
 
